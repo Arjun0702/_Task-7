@@ -1,0 +1,310 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+            /*---------main container*-----------------*/
+.container{
+	  width:1170px;
+	  margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col-lg-1{
+	     width:8.33%;
+		 padding:0 15px;
+}
+.col-lg-2{
+	     width:16.66%;
+		 padding:0 15px;
+}
+.col-lg-3{
+	     width:25%;
+		 padding:15px;
+}
+.col-lg-4{
+	     width:33.33%;
+		 padding:0 15px;
+}
+.col-lg-5{
+	     width:41.66%;
+		 padding:0 15px;
+}
+.col-lg-6{
+	     width:50%;
+		 padding:0 15px;
+}
+.col-lg-7{
+	     width:58.33%;
+		 padding:15px;
+}
+.col-lg-8{
+	     width:66.66%;
+		 padding:0 15px;
+}
+.col-lg-9{
+	     width:75%;
+		 padding:0 15px;
+}
+.col-lg-10{
+	     width:83.33%;
+		 padding:0 15px;
+}
+.col-lg-11{
+	     width:91.66%;
+		 padding:0 15px;
+}
+.col-lg-12{
+	     width:100%;
+		 padding:0 15px;
+}
+
+.logo{
+	   background:red;
+	   height:40px;
+}
+.nav{
+	   background:red;
+	   height:40px;
+}
+.head{
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+
+
+.banner{
+	  background:grey;
+	  height:500px;
+	  padding-top:100px;
+	  padding-bottom:50px;
+}
+.content{
+	  background:red;
+	  height:250px;
+	  width:500;
+}
+
+
+
+.clients{
+	    padding-top:70px;
+		padding-bottom:70px;
+}
+.cl-logo{
+	  background:red;
+	  height:40px;
+}
+
+
+
+.main-banner{
+	   background-color:grey;
+	   height:500px;
+	   padding-top:70px;
+	   padding-bottom:70px;
+}
+.first{
+	   background:red;
+	   height:350px;
+	   
+}
+
+	
+.para{
+	   background:red;
+	   height:150px;
+}
+
+.number{
+	 padding-top:70px;
+	 padding-bottom:70px;
+}
+.list{
+	  background:red;
+	  height:40px;
+}
+	
+
+.content-section{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:grey;
+	 height:600px;
+}
+.icon-content{
+     background:red;
+	 height:40px;
+}
+.para-content{
+	 background:red;
+	 height:350px;
+}
+
+
+.service{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:black;
+	 height:800px;
+}
+.service-content{
+	 background:red;
+	 height:60px;
+}
+.icon-msg{
+	background:red;
+	height:150px;
+	margin:15px;
+}
+
+.portfolio{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:grey;
+	 height:1020px;
+}
+.port-content{
+	 background:red;
+	 height:60px;
+}
+.app{
+	 background:red;
+	 height:30px;
+	 width:25%;
+	 margin:15px 425px;	 
+}
+.picture{
+	 background:red;
+	 height:250px;
+	 margin:15px;
+}
+
+.testimonials{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:black;
+	 height:500px;
+}
+.test{
+	 background:red;
+	 height:40px;
+}
+.img{
+	background:red;
+	height:350px;
+	margin:15px;
+}
+
+
+.pricing{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:grey;
+	 height:600px;
+}
+.price{
+	 background:red;
+	 height:40px;
+}
+.buynow{
+	background:red;
+	height:450px;
+	margin:15px;
+}
+
+
+.frequently{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:black;
+	 height:600px;
+}
+.freq{
+	 background:red;
+	 height:80px;
+}
+.question{
+	background:red;
+	height:400px;
+	margin:15px;
+}
+
+
+.team{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:grey;
+	 height:600px;
+}
+.teamates{
+	 background:red;
+	 height:80px;
+}
+.image{
+	background:red;
+	height:400px;
+	margin:15px;
+}
+
+
+
+.contact{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:black;
+	 height:600px;
+}
+.cont-msg{
+	 background:red;
+	 height:80px;
+}
+.address{
+	 background:red;
+	 height:170px;
+	 margin:15px;
+}
+.email{
+	 background:red;
+	 height:140px;
+	 margin:15px;
+}
+.call{
+	 background:red;
+	 height:140px;
+	 margin:15px;
+}
+.forms{
+	background:red;
+	height:360px;
+	margin:15px;
+}
+
+.menu{
+	 padding-top:70px;
+	 padding-bottom:70px;
+     background-color:grey;
+	 height:400px;
+}
+.menubar{
+	 background:red;
+	 height:270px;
+}
+
+.copyrights{
+	 padding-top:70px;
+	 padding-bottom:70px;
+	 background:black;
+	 height:200px;
+}
+.all-rights{
+	 background:red;
+	 height:60px;
+}
+	 
+	
+	
+	
