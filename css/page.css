@@ -3,14 +3,18 @@
 	padding:0;
 	box-sizing:border-box;
 }
-            /*---------main container*-----------------*/
+           /*---------main container*-----------------*/
 .container{
 	  width:1170px;
 	  margin:0 auto;
+	  padding-left:15px;
+	  padding-right:15px;
 }
 .row{
 	display:flex;
 	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
 }
 .col-lg-1{
 	     width:8.33%;
@@ -60,43 +64,210 @@
 	     width:100%;
 		 padding:0 15px;
 }
+/*----------flex style-----------------*/
+.align-items-center{
+	  align-items:center !important
+}
+.align-items-start{
+	  align-items:flex-start !important
+}
+.align-items-end{
+	  align-items:flex-end !important
+}
+.align-items-baseline{
+	  align-items:baseline !important
+}
+.align-items-stretch{
+	  align-items:stretch !important
+}
+/*--------------Button style------------------*/
+.btns{
+	  display:inline-block;
+	  text-decoration:none;
+	  background-color:red;
+	  font-size:12px;
+	  padding:8px 25px;
+	  text-align:center;
+	  border-radius:5px;
+	  
+}
 
-.logo{
-	   background:red;
-	   height:40px;
-}
-.nav{
-	   background:red;
-	   height:40px;
-}
+
 .head{
-	padding-top:70px;
-	padding-bottom:70px;
+	   background:#f5f5f5;
+	   padding-top:20px;
+	   padding-bottom:20px;
 }
+.logo a{
+	 display:inline-block;
+	 text-decoration:none;
+	 color:#000;
+	 font-size:30px;
+	 font-weight: 600;
+     font-family: "Poppins", sans-serif;
+	   
+}
+.logo span{
+	color:red;
+}
+.nav .nav-bar > li{
+	  display:inline-block;
+	  
+}
+.nav > .nav-bar{
+	  text-align:right;
+}
+.nav-bar > li a.nav-list{
+	  display:block;
+	  text-decoration:none;
+	  color:#000;
+	  font-size:14px;
+	  padding-left:13px;
+	  padding-right:13px;
+	  padding-bottom:10px;
+	  padding-top:10px;
+      transition:all 0.3s ease;	
+	  font-family: "Raleway", sans-serif;
+         
+}
+.nav-bar li a.home{
+	color:red;
+}
+.nav-bar > li a.nav-list:hover{
+	color:red;
+}
+.nav-btn{
+	 color:white;
+	 font-size:14px;
+}
+.dropdown{
+	   position:relative;
+}
+.dropdown-list{
+	  position:absolute;
+	  top:35px;
+      left:0px;
+      width:168px;
+	  text-decoration:none;
+	  background-color:#fff;
+	  border-radius:2px;
+	  text-align:left;
+	  transform:translateY(18px);
+	  visibility:hidden;
+	  opacity:0;
+	  transition:all 0.3s;
+}
+.dropdown:hover .dropdown-list{
+	  transform:translateY(0);
+	  visibility:visible;
+	  opacity:1;
+}
+.dropdown-list:hover{
+	 color:red;
+}
+.dropdown-list li{
+	  display:block;
+}
+.dropdown-list li a{
+	  color:#000;
+	  font-size:14px;
+	  display:block;
+	  text-decoration:none;
+	  padding-top:8px;
+	  padding-bottom:8px;
+	  padding-right:15px;
+	  padding-left:15px;
+}
+.dropdown a i{
+	  font-size:10px;
+	  margin-left:5px;
+}
+.dropdown-list a i{
+	  font-size:13px;
+	  margin-left:25px;
+}
+.deepdropdown{
+	  position:relative;
+}
+.deep-list{
+	  position:absolute;
+	  top:5px;
+      left:100%;
+      width:168px;
+	  text-decoration:none;
+	  background-color:#fff;
+	  border-radius:2px;
+	  text-align:left;
+	  transform:translateX(18px);
+	  visibility:hidden;
+	  opacity:0;
+	  transition:all 0.3s;
+}
+.deepdropdown:hover .deep-list{
+	  transform:translateX(0);
+	  visibility:visible;
+	  opacity:1;
+}
+.dropdown-list li a:hover{
+	   color:red;
+}
+.deep-list li a:hover{
+	  color:red;
+}
+.nav-btn:hover{
+	background-color:black;
+}
+
 
 
 
 .banner{
-	  background:grey;
-	  height:500px;
-	  padding-top:100px;
-	  padding-bottom:50px;
+	  background-image:linear-gradient( rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url(../image/banner.jpg);
+	  min-height:650px;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  padding-top:129px;
+	  
 }
-.content{
-	  background:red;
-	  height:250px;
-	  width:500;
+.pics{
+	   padding-top:80px;
+	   padding-bottom:80px;	 
+	   padding-left:30px;
 }
-
-
+.content h1{
+	   font-size: 46px;
+       font-weight:700;
+	   color:#fff;
+	   font-family: "Raleway", sans-serif;
+}
+.content h2{
+	   font-size:25px;
+	   color:#fff;
+	   font-weight:500;
+	   font-family: "Raleway", sans-serif;
+	   margin-top:15px;
+}
+.content a{
+	   margin-top:18px;
+}
+.con-btn{
+	   color:white;
+	   padding: 12px 30px;
+       font-size: 20px;
+}
+.con-btn:hover{
+	    border:2px solid white;
+		border-radius:5px;
+		background-color:transparent;
+}
+	   
 
 .clients{
 	    padding-top:70px;
 		padding-bottom:70px;
 }
 .cl-logo{
-	  background:red;
-	  height:40px;
+	 
 }
 
 
