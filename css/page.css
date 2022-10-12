@@ -84,12 +84,20 @@
 .btns{
 	  display:inline-block;
 	  text-decoration:none;
-	  background-color:red;
+	  background-color:#e03a3c;
 	  font-size:12px;
 	  padding:8px 25px;
 	  text-align:center;
 	  border-radius:5px;
 	  
+}
+.btns-2{
+	  display:inline-block;
+	  text-decoration:none;
+	  text-align:center;
+	  border-radius:30px;
+	  border:2px solid red;
+	  padding:8px 25px;
 }
 
 
@@ -267,37 +275,131 @@
 		padding-bottom:70px;
 }
 .cl-logo{
+	    width: 100%;
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: all 0.3s ease;
 	 
 }
 
 
 
 .main-banner{
-	   background-color:grey;
-	   height:500px;
 	   padding-top:70px;
 	   padding-bottom:70px;
+	 
 }
-.first{
-	   background:red;
-	   height:350px;
+.rol-shape{  
+       position:relative;
+	   z-index:1;
+	   padding-top:100px;
+	   padding-bottom:100px;
+}
+.rol-shape:after{
+	   content: "";
+	   position:absolute;
+	   top:0;
+	   left:0;
+	   width:100%;
+       height:100%;
+	   background-color:#444;
+	   z-index:-1;
+	   transform:skewY(-3deg);
+	  	   
+}
+.first h2{
+	   font-size:38px;
+	   color:#fff;
+	   font-weight:600;
+	   font-family: "Raleway", sans-serif;
+	   margin:20px 0;
+}
+.first p{
+	   font-size:16px;
+	   color:#fff;
+	   font-family: "Raleway", sans-serif;
+	   margin:35px 0;
+} 
+.first  span{
+	   font-size:15px;
+	   text-transform:uppercase;
+	   color:#fff;
+	   font-weight:700;
+	   font-family: "Raleway", sans-serif;
+}
+.abt-btns:hover{
+	   background-color:#e03a3c;
+}
+.abt-btns i{
+	   color:#fff;
+	   margin-right:10px;
+	   margin-left: 5px;
+	   align-items:center;
+}
+	   
+	
+
+.
+.para {
+	   width:100%;
+	   margin:10px 0;
+          
+}
+.para i{
+	   color:red;
+	   font-size:40px;
+	   margin-bottom:20px;
 	   
 }
-
-	
-.para{
-	   background:red;
-	   height:150px;
+.para h2{
+	   color:#fff;
+	   font-size:20px;
+	   margin-top:10px;
+	   margin-bottom:10px;
+	   font-family: "Raleway", sans-serif;
 }
+.para p{
+	   color:#848484;
+	   font-size:15px;
+	   margin-bottom:10px;
+}
+
+
+
 
 .number{
 	 padding-top:70px;
 	 padding-bottom:70px;
 }
 .list{
-	  background:red;
-	  height:40px;
+	  width:100%;
+	  box-shadow:0px -7px 73px rgb(0 0 0 / 0.06);
+	  border-radius:4px;
+	  text-align:center;
+	  padding:30px 20px;
 }
+.list h2{
+	    font-size:40px;
+	    font-family: "Raleway", sans-serif;
+
+}
+.list p{
+	   font-size:17px;
+	   margin-top:10px;
+	   font-family: "Raleway", sans-serif;
+}
+.list i{
+	  position:relative;
+	  left:0px;
+	  top:-39px;
+	  font-size:27px;
+	  display:inline-block;
+	  box-shadow:0px 0px 95px rgb(0 0 0 / 0.06);
+	  border:7px solid white;
+	  border-radius:25px;
+	  color:red;
+}
+	
 	
 
 .content-section{
