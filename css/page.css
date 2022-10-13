@@ -85,10 +85,12 @@
 	  display:inline-block;
 	  text-decoration:none;
 	  background-color:#e03a3c;
-	  font-size:12px;
+	  font-size:20px;
 	  padding:8px 25px;
 	  text-align:center;
 	  border-radius:5px;
+	  transition: 0.5s;
+	  border: solid 2px #e03a3c;
 	  
 }
 .btns-2{
@@ -117,6 +119,7 @@
 }
 .logo span{
 	color:red;
+	border-radius:15px;
 }
 .nav .nav-bar > li{
 	  display:inline-block;
@@ -147,6 +150,7 @@
 .nav-btn{
 	 color:white;
 	 font-size:14px;
+	 transition: 0.5s;
 }
 .dropdown{
 	   position:relative;
@@ -265,7 +269,6 @@
 }
 .con-btn:hover{
 	    border:2px solid white;
-		border-radius:5px;
 		background-color:transparent;
 }
 	   
@@ -372,11 +375,12 @@
 	 padding-bottom:70px;
 }
 .list{
-	  width:100%;
+	  position:relative;
 	  box-shadow:0px -7px 73px rgb(0 0 0 / 0.06);
 	  border-radius:4px;
 	  text-align:center;
-	  padding:30px 20px;
+	  padding:48px 0px;
+	  background:white;
 }
 .list h2{
 	    font-size:40px;
@@ -389,15 +393,21 @@
 	   font-family: "Raleway", sans-serif;
 }
 .list i{
-	  position:relative;
-	  left:0px;
-	  top:-39px;
+	  position:absolute;
+	  left:111px;
+	  top:-19px;
+	  bottom:0;
 	  font-size:27px;
 	  display:inline-block;
-	  box-shadow:0px 0px 95px rgb(0 0 0 / 0.06);
+	  height:50px;
+	  width:50px;
+	  box-shadow:0 0 10px #d3d3d378;
 	  border:7px solid white;
-	  border-radius:25px;
+	  border-radius:50%;
 	  color:red;
+	  background-color:white;
+	  align-items:center;
+	  line-height:35px;
 }
 	
 	
