@@ -737,11 +737,11 @@
 }
 .testi-para i:first-child{
 	   padding-right:10px;
-	   transform:translateY(-5px);
+	   transform:translateY(-7px);
 }
 .testi-para i:last-child{
 	padding-left:10px;
-	transform:translateY(5px);
+	transform:translateY(7px);
 }
 .pricing{
 	 padding-top:80px;
