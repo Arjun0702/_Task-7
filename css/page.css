@@ -22,10 +22,16 @@
 .d-none{
 	display:none !important;
 }
+.text-right{
+	 text-align:right !important;
+}
 	
 /*----------flex style-----------------*/
 .align-items-center{
 	  align-items:center !important;
+}
+.justify-content-center{
+	  justify-content:center !important;
 }
 .align-items-start{
 	  align-items:flex-start !important;
@@ -392,7 +398,7 @@
 	 padding-top:70px;
 	 padding-bottom:70px;
      background-color:#fff;
-	 height:700px;
+	
 }
 .icon-content{
       width:100%;
