@@ -64,14 +64,20 @@
 	   font-size:30px;
 }
 .list i{
-	 left:44%;
+	 
 }
 .icon-content i{
 	top:24%;
+}
+.list{
+	margin-top:20px;
 
 }
+.footer-links{
+	text-align:left;
 }
 
+}
 /*----------ipad device----------------*/
 @media (min-width:768px){
 
@@ -144,7 +150,6 @@
 	margin-bottom:15px;
 }
 .list i{
-	left:45%;
 	margin-bottom:10px;
 	}
 .icon-content i{
@@ -152,6 +157,9 @@
 }
 .testi-com{
 	padding: 25px;
+}
+.footer-links{
+	text-align:left;
 }
 }
 
