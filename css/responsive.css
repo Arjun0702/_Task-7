@@ -1,6 +1,6 @@
 /*----------mobile device----------------*/
 
-@media (max-width:576px){
+@media(max-width:576px){
   .d-xs-none{
 	    display:none !important;
 }
@@ -11,6 +11,7 @@
 	  width:100%;
 	  margin-bottom:10px;
 }
+
 .col-1{
 	     width:8.33%;
 		 padding:0 15px;
@@ -63,23 +64,51 @@
 .logo a{
 	   font-size:30px;
 }
-.list i{
-	 
+.cl-logo{
+	  margin-left:20px;
+}
+.main-banner .btns-2{
+	  margin-bottom:20px;
+}
+.main-banner{
+	text-align:center;
+}
+.d-xs-none{
+	display:none !important;
+}
+.number{
+	 padding-top:50px;
 }
 .icon-content i{
-	top:24%;
+	top:22%;
+    left:15%;
 }
 .list{
-	margin-top:20px;
-
+	margin-top:25px;
+}
+.testimonials{
+	padding-top:10px;
+	padding-bottom:50px;
+}
+.testi-com {
+    margin-bottom:20px;
+}
+.social-link{
+	left:22%;
 }
 .footer-links{
-	text-align:left;
+	text-align:center;
 }
+.copyrights{
+	text-align:center;
 
 }
+.direction{
+	  flex-direction:column-reverse;
+}
+}
 /*----------ipad device----------------*/
-@media (min-width:768px){
+@media (min-width:576px) and (max-width:992px){
 
 	.container{
 	  width:767px;
@@ -147,19 +176,30 @@
 		 padding:0 15px;
 }
 .list{
-	margin-bottom:15px;
+	margin-bottom:30px;
 }
 .list i{
 	margin-bottom:10px;
 	}
 .icon-content i{
-	top:24%;
+	top:20%;
+	left:35%;
 }
 .testi-com{
-	padding: 25px;
+	padding:25px;
+	margin-bottom:35px;
 }
-.footer-links{
-	text-align:left;
+.main-banner{
+	text-align:center;
+}
+.testimonials{
+	    padding-bottom:40px;
+}
+.social-link{
+	    left:24%;
+}
+.direction{
+	  flex-direction:column-reverse;
 }
 }
 
@@ -174,51 +214,51 @@
 .d-xs-block{
 	    display:none !important; 
 }
-.col-md-1{
+.col-lg-1{
 	     width:8.33%;
 		 padding:0 15px;
 }
-.col-md-2{
+.col-lg-2{
 	     width:16.66%;
 		 padding:0 15px;
 }
-.col-md-3{
+.col-lg-3{
 	     width:25%;
 		 padding:0 15px;
 }
-.col-md-4{
+.col-lg-4{
 	     width:33.33%;
 		 padding:0 15px;
 }
-.col-md-5{
+.col-lg-5{
 	     width:41.66%;
 		 padding:0 15px;
 }
-.col-md-6{
+.col-lg-6{
 	     width:50%;
 		 padding:0 15px;
 }
-.col-md-7{
+.col-lg-7{
 	     width:58.33%;
 		 padding:0 15px;
 }
-.col-md-8{
+.col-lg-8{
 	     width:66.66%;
 		 padding:0 15px;
 }
-.col-md-9{
+.col-lg-9{
 	     width:75%;
 		 padding:0 15px;
 }
-.col-md-10{
+.col-lg-10{
 	     width:83.33%;
 		 padding:0 15px;
 }
-.col-md-11{
+.col-lg-11{
 	     width:91.66%;
 		 padding:0 15px;
 }
-.col-md-12{
+.col-lg-12{
 	     width:100%;
 		 padding:0 15px;
 }

@@ -102,8 +102,8 @@
 	  text-decoration:none;
 	  color:#000;
 	  font-size:14px;
-	  padding-left:8px;
-	  padding-right:8px;
+	  padding-left:3px;
+	  padding-right:5px;
 	  padding-bottom:5px;
 	  padding-top:5px;
       transition:all 0.3s ease;	
@@ -206,8 +206,10 @@
 	  background-image:linear-gradient( rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url(../image/banner.jpg);
 	  min-height:700px;
 	  background-repeat:no-repeat;
-	  background-size:cover;
-	  padding-top:129px;
+      background-size:cover;
+	  background-position:center;
+	  align-items: center;
+	  display: flex;
 	  
 }
 .pics{
@@ -248,7 +250,7 @@
 		padding-bottom:80px;
 }
 .cl-logo {
-	    width:100%;
+	    width:70%;
         filter: grayscale(100%);
         opacity: 0.5;
         transition: all 0.3s ease;
@@ -353,8 +355,8 @@
 
 
 .number{
-	 padding-top:80px;
-	 padding-bottom:70px;
+	 padding-top:120px;
+	 padding-bottom:50px;
 }
 .list{
 	  position:relative;
@@ -396,8 +398,8 @@
 	
 
 .content-section{
-	 padding-top:70px;
-	 padding-bottom:70px;
+	 padding-top:25px;
+	 padding-bottom:90px;
      background-color:#fff;
 	
 }
@@ -413,18 +415,18 @@
 }
 .icon-content h3{
 	  font-size:18px;
-	  margin-left:10px;
-	  margin-top: -9px;
-	  margin-right:6px;
+	  margin-top: -17px;
+	  padding-left:5px;
+	  padding-right:5px;
 	  font-family: 'Open Sans', sans-serif;
       	
 }
 .icon-content i{
 	   position:absolute;
-	   top:30px;
-       left:3px;
+	   top:25%;
+       left:5%;
 	   font-size:40px;
-	   margin-left:10px;
+	 
 	   
 }
 .icon-3:hover{
@@ -506,17 +508,21 @@
 	  font-family: 'Open Sans', sans-serif;
 }
 .icon-msg{
+	    position:relative;
 	    width:100%;
 	    margin-bottom:15px;
 		margin-top:15px;
 		padding:25px;
 	    border:2px solid #252525;
 		background-color:#252525;
+		border-radius:7px;
 	    font-family: "Raleway", sans-serif;
 }
 .icon-msg i{
+	     position:absolute;
+		 top:22%;
+		 left:4%;
 	     color:#e03a3c;
-		 float:left;
 		 font-size:40px;
 }
 .icon-msg a{
@@ -526,15 +532,15 @@
 		
 }
 .icon-msg h4{
-	      margin-left:65px;
-		  margin-bottom:15px;
+	     padding-left:60px;
 }
 .icon-msg p{
-	      font-size:14px;
+	      font-size:13px;
 		  font-weight:normal;
 		  color:#fff;
-		  margin-left:65px;
 		  line-height:1.5;
+		  padding-left:60px;
+		  padding-top:12px;
 }
 
 .portfolio{
@@ -555,7 +561,7 @@
 	 margin-top:20px;
 	 margin-bottom:10px;
 }
-.app a{
+.app-nav{
 	 height:30px;
 	 width:25%;
 	 padding-left:10px;
@@ -566,8 +572,8 @@
 	 text-align:center;
 	 text-decoration:none;
 	 text-transform:uppercase;
-	 font-size:16px;
 	 color:#444;
+	 font-size:16px;
 	 font-family: 'Open Sans', sans-serif;
 }
 .app-nav:hover{
@@ -669,23 +675,25 @@
 		 color:#444;
 	 
 }
-.testi-pics{
-	   overflow:hidden;
+.testi-pics:after {
+    content: "";
+    display:table;
+    clear:both;
 }
-	   
 .testi-pics img{
 	     float:left;
 		 width:73px;
 		 border-radius:6px;
 		 margin-right:15px;
 		 margin-bottom:10px;
-		 margin-top:10px;
+		 
 }
 .testi-pics h3{
 	    font-size:20px;
 		font-weight:bold;
 		color:#111;
-		margin-top:22px;
+		margin-top:10px;
+		padding-top:10px;
 }
 .testi-pics h4{
 	    font-size:14px;
@@ -863,8 +871,8 @@
 .social-link{
 	  display:inline-block;
 	  position:absolute;
-	  left:40px;
-	  bottom:20px;
+	  left:10%;
+	  bottom:5%;
 	  font-size:20px;
 	  opacity:0;
 	  transition:all 0.5s ease-in-out;
@@ -1107,7 +1115,7 @@
     top:0;
 	font-size: 16px;
 	height:100%;
-	line-height:0px;
+	line-height:36px;
     text-decoration: none;
     background: #e03a3c;
     color:#fff;
