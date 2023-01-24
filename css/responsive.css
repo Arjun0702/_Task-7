@@ -64,9 +64,20 @@
 .logo a{
 	   font-size:30px;
 }
+.head .nav-icon{
+	  position:relative;
+}
+.head .nav-icon i{
+	   font-size:30px;
+	   position:absolute;
+	   top:12%;
+	   left:75%;
+	   color:#111;
+}
 .cl-logo{
 	  margin-left:20px;
 }
+
 .main-banner .btns-2{
 	  margin-bottom:20px;
 }
@@ -110,12 +121,6 @@
 /*----------ipad device----------------*/
 @media (min-width:576px) and (max-width:992px){
 
-	.container{
-	  width:767px;
-	  margin:0 auto;
-	  padding-left:15px;
-	  padding-right:15px;
-	}
 .row>*{
 	  width:100%;
 	  margin-bottom:10px;
@@ -174,6 +179,16 @@
 .col-sm-12{
 	     width:100%;
 		 padding:0 15px;
+}
+.head .nav-icon{
+	  position:relative;
+}
+.head .nav-icon i{
+	   font-size:30px;
+	   position:absolute;
+	   top:12%;
+	   left:75%;
+	   color:#111;
 }
 .list{
 	margin-bottom:30px;
